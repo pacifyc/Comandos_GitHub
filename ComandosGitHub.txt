@@ -1,0 +1,71 @@
+
+
+____________________________________________________________________________
+
+ls : Lista todos os arquivos do diretório.
+
+ls -a : Lista todos os arquivos do diretório incluindo os arquivos ocultos.
+
+clear : Limpa a tela do terminal do GIT.
+
+____________________________________________________________________________
+
+* Criar diretório
+
+mkdir Comandos_GitHub
+---------------------------------------------------------------------
+
+* Listar arquivos para verificar se foi criado o diretóorio
+
+ls
+---------------------------------------------------------------------
+* Entrar no diretório criado
+
+cd Comandos_GitHub
+
+---------------------------------------------------------------------
+* Iniciar o Git dentro da pasta criada (Diretório) 
+  para gerenciar e versionar o codigo
+
+git init
+
+* Verifiicar se a pasta oculta [ .git ] foi criada referente ao comando [git init]
+
+ls -a
+____________________________________________________________________________
+
+
+* Configurações iniciais 
+
+
+- Comandos para informa e-mail
+
+git config --global user.email "silviosenna.jl@gmail.com"
+
+- Comandos para informa usuario
+
+git config --global user.name usuario
+
+____________________________________________________________________________
+
+* Cria o arquivo dentro da pasta
+
+
+---------------------------------------------------------------------
+* Comandos para comitar o arquivo
+
+git add
+
+git commiit -m "commit inicial"
+
+
+
+
+
+
+
+
+
+
+
+
