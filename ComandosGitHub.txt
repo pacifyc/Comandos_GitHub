@@ -56,7 +56,7 @@ ____________________________________________________________________________
 
 git add
 
-git commiit -m "commit inicial"
+git commit -m "commit inicial"
 
 
 
