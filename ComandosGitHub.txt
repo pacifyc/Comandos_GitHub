@@ -50,13 +50,28 @@ ____________________________________________________________________________
 
 * Cria o arquivo dentro da pasta
 
-
+Readame.md
 ---------------------------------------------------------------------
 * Comandos para comitar o arquivo
 
-git add
+git add *
 
 git commit -m "commit inicial"
+
+---------------------------------------------------------------------
+
+git status                               // Mostra informações 
+
+mkdir receitas                           // Cria uma pasta com o nome receitas
+
+mv bolo.md ./receitas                    // Move o arquivo para dentro de uma sub-pasta
+
+
+git add README.md receitas/bolo.md       // O comando adiciona as alterações realizadas no status de [ staged ]
+
+
+
+
 
 
 
