@@ -44,7 +44,7 @@ git config --global user.email "silviosenna.jl@gmail.com"
 
 - Comandos para informa usuario
 
-git config --global user.name usuario
+git config --global user.name Silvio_Sena
 
 ____________________________________________________________________________
 
@@ -68,6 +68,23 @@ mv bolo.md ./receitas                    // Move o arquivo para dentro de uma su
 
 
 git add README.md receitas/bolo.md       // O comando adiciona as alterações realizadas no status de [ staged ]
+
+
+git commit -m "criada pasta receita, moveu o arquivo bolo para a pasta receita"
+
+
+----------------------------------------------------------------------
+
+git config --list
+
+
+git config --global --unset user.email           // Exclui da configuração o e-mail
+
+
+git config --global --unset user.neme            // Exclui da configuração o e-mail
+
+
+
 
 
 
